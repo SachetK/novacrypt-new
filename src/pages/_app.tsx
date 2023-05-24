@@ -22,7 +22,7 @@ const Header: React.FC = () => {
           <Image src="/logo.svg" alt="Logo" fill />
         </div>
         <h1 className="text-2xl font-semibold text-white">
-          NOVA<span className="text-[#06BFFD]">CRYPT</span>
+          NOVA<span className="text-title-blue">CRYPT</span>
         </h1>
       </Link>
       <div className="flex items-center gap-4">
@@ -45,7 +45,7 @@ const Header: React.FC = () => {
 
 const Footer: React.FC = () => {
   return (
-    <footer className="flex h-16 w-full items-center justify-center bg-gradient-to-b from-[#2e026d] to-[#15162c] px-4">
+    <footer className="z-50 flex h-16 w-full items-center justify-center bg-gradient-to-b from-[#2e026d] to-[#15162c] px-4">
       <div className="flex items-center gap-4 fill-white text-white">
         <a href="https://www.instagram.com" id="instagram">
           <svg
