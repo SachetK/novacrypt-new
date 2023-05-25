@@ -16,10 +16,10 @@ const MyApp: AppType = ({ Component, pageProps }) => {
 
 const Header: React.FC = () => {
   return (
-    <header className="sticky top-0 flex h-16 w-full items-center justify-between bg-gradient-to-b from-[#2e026d] to-[#15162c] px-4">
+    <header className="sticky top-0 z-50 flex h-16 w-full items-center justify-between bg-gradient-to-b from-[#2e026d] to-[#15162c] px-4">
       <Link className="flex items-center gap-4" href="/">
         <div className="relative h-8 w-8">
-          <Image src="/logo.svg" alt="Logo" fill />
+          <Image src="/logo.png" alt="Logo" fill />
         </div>
         <h1 className="text-2xl font-semibold text-white">
           NOVA<span className="text-title-blue">CRYPT</span>
@@ -32,12 +32,12 @@ const Header: React.FC = () => {
         >
           Team
         </Link>
-        <a
+        <Link
           href="/team"
           className="rounded-xl px-4 py-2 text-lg font-bold text-white transition-colors duration-200 ease-in-out hover:bg-white/20"
         >
-          Register
-        </a>
+          Join
+        </Link>
       </div>
     </header>
   );
