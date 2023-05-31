@@ -7,6 +7,9 @@ export default {
       colors: {
         "title-blue": "#06BFFD",
       },
+      transformOrigin: {
+        "bottom-center": "bottom center",
+      },
     },
   },
   plugins: [],
