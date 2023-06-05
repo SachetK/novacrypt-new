@@ -69,7 +69,6 @@ const Support: React.FC = () => {
           height={150}
           alt={support}
           key={support}
-          placeholder="blur"
           className="relative z-auto"
         />
       ))}
