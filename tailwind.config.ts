@@ -7,8 +7,8 @@ export default {
       colors: {
         "title-blue": "#06BFFD",
       },
-      transformOrigin: {
-        "bottom-center": "bottom center",
+      fontFamily: {
+        jost: ["Reem Kufi", "sans-serif"],
       },
     },
   },

@@ -16,7 +16,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
 
 const Header: React.FC = () => {
   return (
-    <header className="sticky top-0 z-50 flex h-16 w-full items-center justify-between bg-gradient-to-b from-[#2e026d] to-[#15162c] px-4">
+    <header className="sticky top-0 z-50 flex h-16 w-full items-center justify-between bg-gradient-to-b from-[#2e026d] to-[#15162c] px-4 font-jost">
       <Link className="flex items-center gap-4" href="/">
         <div className="relative h-8 w-8">
           <Image src="/logo.png" alt="Logo" fill />
