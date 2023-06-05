@@ -36,7 +36,7 @@ const Landing: React.FC = () => {
         NOVA<span className="text-title-blue">CRYPT</span>
       </h1>
       <div className="relative z-auto">
-        <Image src={animatedLogo} alt="Learn More" className="relative " />
+        <Image src={animatedLogo} alt="Learn More" className="relative" />
         <h2 className="text-center text-xl font-bold text-white sm:text-2xl">
           A student-led organization dedicated to educating the next generation
           of innovators
@@ -69,6 +69,7 @@ const Support: React.FC = () => {
           height={150}
           alt={support}
           key={support}
+          placeholder="blur"
           className="relative z-auto"
         />
       ))}
