@@ -83,7 +83,7 @@ const About: React.FC = () => {
         <Image
           src={build}
           alt="About"
-          className="relative z-auto row-span-2 place-self-center object-contain object-center md:w-2/3 lg:w-full"
+          className="relative z-auto row-span-2 place-self-center object-contain object-center md:w-2/3"
         />
         <h1 className="text-3xl font-semibold text-white sm:text-5xl">
           Who are we?
@@ -103,7 +103,7 @@ const About: React.FC = () => {
         <Image
           src={stem}
           alt="About"
-          className="relative z-auto row-span-2 place-self-center object-contain object-center md:w-2/3 lg:w-full"
+          className="relative z-auto row-span-2 place-self-center object-contain object-center md:w-2/3"
         />
         <h1 className="text-3xl font-semibold text-white sm:text-5xl">
           Our Mission
@@ -122,7 +122,7 @@ const About: React.FC = () => {
         <Image
           src={dev}
           alt="About"
-          className="relative z-auto row-span-2 place-self-center object-contain object-center md:w-2/3 lg:w-full"
+          className="relative z-auto row-span-2 place-self-center object-contain object-center md:w-2/3"
         />
         <h1 className="text-3xl font-semibold text-white sm:text-5xl">
           Our Program
