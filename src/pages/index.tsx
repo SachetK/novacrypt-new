@@ -64,7 +64,7 @@ const Support: React.FC = () => {
     <div className="grid grid-cols-2 gap-12 px-4 py-16 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
       {supports.map((support) => (
         <Image
-          src={`/support/${support}.png`}
+          src={`/support/${support.toLowerCase()}.png`}
           width={150}
           height={150}
           alt={support}
